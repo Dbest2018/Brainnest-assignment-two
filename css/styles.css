@@ -139,6 +139,40 @@ section{
     color: #1F2937;
 }
 
+.call_to_action{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5rem 8rem;
+}
+.cta__container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 85%;
+    padding: 2rem 4rem;
+    background-color: #3882F6;
+    border-radius: .5rem;
+}
+.cta-title{
+    color: #F9FAF8;
+    font-size: 1.125rem;
+    font-weight: bold;
+}
+.cta-text{
+    color: #E5E7EB;
+    font-size: .75rem;
+}
+.cta-button{
+    border: 2px solid #F9FAF8;
+    color: #F9FAF8;
+    background-color: #3882F6;
+    padding: .5rem 1.75rem;
+    margin-top: .5rem;
+    border-radius: .25rem;
+    cursor: pointer;
+}
+
 
 /* -----FOOTER---- */
 footer{
